@@ -1,7 +1,7 @@
-Cat vs Dog Classifier
+# Cat vs Dog Classifier
 This project is a Flask web application that classifies images of cats and dogs using a pre-trained Convolutional Neural Network (CNN) model built with TensorFlow. The model predicts whether an uploaded image is a cat or a dog. Users can drag and drop images for prediction directly on the frontend.
 
-🛠️ Technologies Used
+# 🛠️ Technologies Used
 Flask: Python web framework for creating the server-side application.
 
 TensorFlow: Machine learning framework to load the pre-trained CNN model from saved models which are trained in training for image classification.
@@ -10,14 +10,14 @@ HTML, CSS, JavaScript: For frontend interface with drag-and-drop functionality.
 
 Python 3.x: For backend logic and integration with TensorFlow.
 
-🚀 Features
+# 🚀 Features
 Drag and Drop Interface: Users can easily drag and drop images of cats or dogs for classification.
 
 Real-Time Prediction: Instant feedback on whether the image is a cat or a dog.
 
 Responsive UI: Designed to work across devices.
 
-📦 Installation
+# 📦 Installation
 Step 1: Clone the repository
 bash
 Copy
@@ -49,7 +49,7 @@ numpy==1.21.0
 Step 4: Download or create the pre-trained model
 Ensure you have a trained model (e.g., model.h5) saved in your project directory. You can use your own model or follow a tutorial to train one. Place the model in the root directory of the project.
 
-🎨 Usage
+# 🎨 Usage
 Step 1: Start the Flask app
 bash
 Copy
@@ -65,7 +65,7 @@ Drag and drop any cat or dog image into the drop area, and it will predict the c
 🖼️ Images for Testing
 Place your images inside the static/sample_images/ folder. The app currently uses 5 cat images and 5 dog images that can be dragged and dropped for classification.
 
-🧑‍💻 Running the Project
+# 🧑‍💻 Running the Project
 To run the project:
 
 Clone the repository and set up the environment.
@@ -74,7 +74,7 @@ Run the Flask server with python app.py.
 
 Navigate to http://127.0.0.1:5000/ in your web browser.
 
-📂 Project Structure
+# 📂 Project Structure
 bash
 Copy
 Edit
@@ -88,14 +88,14 @@ cat-dog-classifier/
 │   └── index.html         # Frontend HTML page
 ├── model.h5               # Pre-trained CNN model file
 └── README.md              # Project documentation
-⚙️ How It Works
+# ⚙️ How It Works
 Frontend:
 
 Users drag and drop images into the designated area.
 
 Images are sent to the backend using JavaScript Fetch API.
 
-Backend:
+# Backend:
 
 The image is received by the Flask server.
 
@@ -107,13 +107,13 @@ Prediction:
 
 The result (either "Cat" or "Dog") is displayed on the page.
 
-🛠️ Troubleshooting
+# 🛠️ Troubleshooting
 Issue: TensorFlow model not loading
 Solution: Ensure that your model is correctly saved as model.h5 and placed in the correct directory.
 
 Issue: Drag and drop not working
 Solution: Ensure that JavaScript is enabled in your browser and there are no errors in the browser's developer console.
 
-🔄 License
+# 🔄 License
 This project is licensed under the MIT License.
 
